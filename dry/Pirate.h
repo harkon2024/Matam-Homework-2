@@ -8,11 +8,15 @@ using std::string;
 class Pirate {
 private:
     string name;
+    int bounty;
 
 public:
-    Pirate() : name("") {}
+    Pirate() : name("") {};
 
-    Pirate(const string& name);
+    Pirate(const string& name, int bounty);
+
+    int getBounty() const;
+    void setBounty(int x);
 
     ~Pirate() = default;
 
