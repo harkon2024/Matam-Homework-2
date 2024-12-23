@@ -10,6 +10,8 @@ private:
     string name;
 
 public:
+    Pirate() : name("") {}
+
     Pirate(const string& name);
 
     ~Pirate() = default;

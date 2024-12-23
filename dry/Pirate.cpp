@@ -1,7 +1,6 @@
 
 #include "Pirate.h"
 
-
 Pirate::Pirate(const string& name): name(name) {}
 
 
